@@ -22,6 +22,39 @@ const preguntas = [
     explicacion: 'Diapositiva 6 del tema 1. La correcta es la primera. La segunda opción corresponde a Alegre, Berné y Galve, 1995; la cuarta está tomada de Bueno Campos et al., 2002; y la tercera no coincide exactamente con la de Barroso.'
   },
   {
+    enunciado: "Una empresa es:",
+    opciones: [
+      "Una organización que transforma recursos en bienes o servicios y busca beneficio",
+      "Cualquier grupo de personas",
+      "Cualquier institución pública",
+      "Una asociación sin objetivos económicos"
+    ],
+    correcta: 0,
+    explicacion: 'Diapositiva 8 del tema 1.'
+  },
+  {
+    enunciado: "Señala la afirmación correcta: (Según el profesor, una de las preguntas que dice que pone: diferencia entre empresa y organización (diapositiva 9 del tema 1))",
+    opciones: [
+      "Toda organización es una empresa",
+      "Empresa y organización son exactamente lo mismo",
+      "Ninguna empresa es una organización",
+      "Toda empresa es una organización"
+    ],
+    correcta: 3,
+    explicacion: 'Diapositiva 8 del tema 1.'
+  },
+  {
+    enunciado: "Una microempresa se caracteriza, principalmente, por tener:",
+    opciones: [
+      "Menos de 250 trabajadores",
+      "Menos de 50 trabajadores",
+      "Menos de 10 trabajadores",
+      "Menos de 5 trabajadores"
+    ],
+    correcta: 2,
+    explicacion: 'Diapositiva 14 del tema 1.'
+  },
+  {
     enunciado: "Según el enfoque sistémico, la empresa es un sistema abierto porque:",
     opciones: [
       "No necesita control interno",
@@ -31,6 +64,17 @@ const preguntas = [
     ],
     correcta: 2,
     explicacion: 'Diapositiva 19 del tema 1.'
+  },
+  {
+    enunciado: "El mecanismo por el que la empresa corrige desviaciones respecto a sus objetivos se llama:",
+    opciones: [
+      "Feedback o retroalimentación",
+      "Outsourcing",
+      "Sinergia",
+      "Inversión"
+    ],
+    correcta: 0,
+    explicacion: 'Diapositiva 22 del tema 1.'
   },
   {
     enunciado: "¿Cuál de los siguientes es un subsistema funcional de la empresa encargado de adquirir los insumos necesarios para el proceso productivo?",
@@ -77,6 +121,17 @@ const preguntas = [
     explicacion: 'Diapositiva 27 del tema 1.'
   },
   {
+    enunciado: "¿Cuál de las siguientes es una función general clásica en el ámbito de la dirección de empresas?",
+    opciones: [
+      "Amortización",
+      "Planificación",
+      "Facturación",
+      "Tesorería"
+    ],
+    correcta: 1,
+    explicacion: 'Diapositiva 29 del tema 1.'
+  },
+  {
     enunciado: "Según Knight, el beneficio empresarial se justifica por:",
     opciones: [
       "La maximización automática del beneficio",
@@ -108,6 +163,28 @@ const preguntas = [
     ],
     correcta: 0,
     explicacion: 'Diapositiva 33 del tema 1.'
+  },
+  {
+    enunciado: "El gobierno corporativo pretende principalmente:",
+    opciones: [
+      "Eliminar el beneficio",
+      "Sustituir a los accionistas",
+      "Concretar las relaciones y controlar conflictos entre partes",
+      "Reducir la producción"
+    ],
+    correcta: 2,
+    explicacion: 'Diapositiva 39 del tema 1.'
+  },
+  {
+    enunciado: "La Junta General:",
+    opciones: [
+      "Administra directamente la sociedad",
+      "Sustituye a los trabajadores",
+      "Aprueba precios de venta de cada producto",
+      "Nombra a los administradores"
+    ],
+    correcta: 3,
+    explicacion: 'Diapositiva 40 del tema 1.'
   },
   {
     enunciado: "¿Qué caracteriza al modelo anglosajón de gobierno corporativo?",
@@ -242,7 +319,18 @@ const preguntas = [
     explicacion: 'Diapositiva 11 del tema 2.'
   },
   {
-    enunciado: "¿Qué es la situación de máxima estabilidad?",
+    enunciado: "La situación en la que el activo circulante coincide con el pasivo circulante es:",
+    opciones: [
+      "Iliquidez",
+      "Máxima estabilidad",
+      "Quiebra",
+      "Expansión"
+    ],
+    correcta: 0,
+    explicacion: 'Diapositiva 32 del tema 2.'
+  },
+  {
+    enunciado: "¿Cuándo se da la situación de máxima estabilidad?",
     opciones: [
       "Cuando el activo circulante coincide con el pasivo circulante",
       "Cuando todo el activo está financiado con recursos propios y la empresa no tiene deudas",
@@ -274,6 +362,17 @@ const preguntas = [
     correcta: 0,
     explicacion: 'Diapositiva 38 del tema 2.'
   },
+  {
+    enunciado: "La ratio de solvencia total es:",
+    opciones: [
+      "Activo total / pasivo total",
+      "Patrimonio neto / activo total",
+      "Ventas / pasivo corriente",
+      "BAIT / impuestos"
+    ],
+    correcta: 0,
+    explicacion: 'Diapositiva 49 del tema 2.'
+  },
   { 
     enunciado: "El beneficio es:",
     opciones: [
@@ -284,6 +383,17 @@ const preguntas = [
     ],
     correcta: 1,
     explicacion: 'Diapositiva 52 del tema 2.'
+  },
+  {
+    enunciado: "El BAIT es:",
+    opciones: [
+      "Beneficio después de impuestos",
+      "Beneficio antes de impuestos y después de intereses",
+      "Beneficio neto distribuible",
+      "Beneficio antes de intereses e impuestos"
+    ],
+    correcta: 3,
+    explicacion: 'Diapositiva 53 del tema 2.'
   },
   {
     enunciado: "El beneficio económico (BAIT) depende únicamente de:",
@@ -360,6 +470,19 @@ const botonReiniciar = document.createElement("button");
 botonReiniciar.textContent = "Borrar respuestas y empezar de nuevo";
 botonReiniciar.style.marginTop = "20px";
 
+// Botón para terminar y ver resultados
+const botonTerminar = document.createElement("button");
+botonTerminar.textContent = "He terminado";
+botonTerminar.style.marginTop = "20px";
+botonTerminar.style.marginRight = "10px";
+botonTerminar.style.display = "none";
+
+// Caja de resultados finales
+const resultadoFinal = document.createElement("div");
+resultadoFinal.className = "explicacion";
+resultadoFinal.style.display = "none";
+resultadoFinal.style.marginTop = "20px";
+
 function mezclar(array) {
   const copia = [...array];
   for (let i = copia.length - 1; i > 0; i--) {
@@ -382,10 +505,44 @@ function actualizarContador() {
     }
   });
 
+  const textoPregunta = acertadas === 1 ? "pregunta" : "preguntas";
+
   contador.textContent =
     respondidas === preguntas.length
-      ? `Has respondido bien ${acertadas} preguntas de ${preguntas.length}.`
-      : `Has respondido bien ${acertadas} preguntas de ${preguntas.length} de momento.`;
+      ? `Has respondido bien ${acertadas} ${textoPregunta} de ${preguntas.length}.`
+      : `Has respondido bien ${acertadas} ${textoPregunta} de ${preguntas.length} de momento.`;
+}
+
+function mostrarResultados() {
+  let acertadas = 0;
+  let falladas = 0;
+  let respondidas = 0;
+
+  preguntas.forEach((pregunta, i) => {
+    if (respuestasUsuario[i] !== null) {
+      respondidas++;
+
+      if (respuestasUsuario[i] === pregunta.correcta) {
+        acertadas++;
+      } else {
+        falladas++;
+      }
+    }
+  });
+
+  const total = preguntas.length;
+  const notaSinPenalizacion = (10 * acertadas) / total;
+  const notaConPenalizacion = Math.max(0, 10 * ((acertadas - falladas / 3) / total));
+  const textoRespondidas = respondidas === 1 ? "pregunta" : "preguntas";
+
+  resultadoFinal.innerHTML = `
+    <strong>Resultados:</strong><br>
+    Has respondido ${respondidas} de ${total} ${textoRespondidas}.<br>
+    Has acertado ${acertadas} de ${total}.<br>
+    Nota sin penalización: ${notaSinPenalizacion.toFixed(2)} / 10.<br>
+    Nota con penalización de 1/3 por fallo: ${notaConPenalizacion.toFixed(2)} / 10 (mínimo 0).
+  `;
+  resultadoFinal.style.display = "block";
 }
 
 function renderQuiz() {
@@ -447,6 +604,10 @@ function renderQuiz() {
     quiz.appendChild(contenedor);
   });
 
+  botonTerminar.style.display = "inline-block";
+
+  quiz.appendChild(botonTerminar);
+  quiz.appendChild(resultadoFinal);
   quiz.appendChild(botonReiniciar);
 }
 
@@ -455,13 +616,20 @@ botonAleatorio.addEventListener("click", () => {
   renderQuiz();
 });
 
+botonTerminar.addEventListener("click", () => {
+  mostrarResultados();
+});
+
 botonReiniciar.addEventListener("click", () => {
   for (let i = 0; i < respuestasUsuario.length; i++) {
     respuestasUsuario[i] = null;
   }
   ordenPreguntas = preguntas.map((_, i) => i);
+  resultadoFinal.style.display = "none";
+  botonTerminar.style.display = "none";
   renderQuiz();
   actualizarContador();
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
 renderQuiz();
