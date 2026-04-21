@@ -899,7 +899,7 @@ const preguntas = [
       "Alcanza el máximo beneficio"
     ],
     correcta: 2,
-    explicacion: "Diapositivas 72 del tema 2."
+    explicacion: "Diapositiva 72 del tema 2."
   },
   {
     enunciado: "El margen de cobertura o de contribución viene dado por:",
