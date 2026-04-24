@@ -955,8 +955,368 @@ const preguntas = [
     ],
     correcta: 1,
     explicacion: "Diapositiva 91 del tema 2."
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) Una organización se caracteriza por:",
+    opciones: [
+      "Personas reunidas sin objetivos",
+      "Personas coordinadas para lograr objetivos comunes",
+      "Un grupo informal",
+      "Una empresa con ánimo de lucro"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 4 del tema 1.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) La empresa es un sistema porque:",
+    opciones: [
+      "No interactúa con el entorno",
+      "Está formada por elementos interrelacionados",
+      "No tiene límites",
+      "No requiere control"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 18 del tema 1.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El subsistema de aprovisionamiento se encarga de:",
+    opciones: [
+      "Transformar inputs",
+      "Comprar insumos",
+      "Diseñar campañas",
+      "Seleccionar personal"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 24 del tema 1.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) La eficacia consiste en:",
+    opciones: [
+      "Lograr objetivos",
+      "Reducir recursos",
+      "Aumentar producción",
+      "Minimizar costes"
+    ],
+    correcta: 0,
+    explicacion: "Diapositiva 27 del tema 1.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) La eficiencia consiste en:",
+    opciones: [
+      "Lograr objetivos sin importar recursos",
+      "Usar bien los recursos para lograr objetivos",
+      "Reducir costes sin producir",
+      "Aumentar ventas"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 27 del tema 1.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El patrimonio empresarial incluye:",
+    opciones: [
+      "Bienes y derechos",
+      "Bienes, derechos y obligaciones",
+      "Solo bienes",
+      "Solo derechos"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 7 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El activo corriente incluye:",
+    opciones: [
+      "Maquinaria",
+      "Existencias, clientes y tesorería",
+      "Terrenos",
+      "Inversiones a largo plazo"
+    ],
+    correcta: 1,
+    explicacion: "Diapositivas 16, 17 y 18 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El pasivo corriente incluye:",
+    opciones: [
+      "Deudas a largo plazo",
+      "Deudas con vencimiento inferior a un año",
+      "Patrimonio neto",
+      "Activos financieros"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 23 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El fondo de maniobra es:",
+    opciones: [
+      "Activo corriente - Pasivo corriente",
+      "Activo total - Pasivo total",
+      "Activo no corriente - Pasivo corriente",
+      "Pasivo corriente - Activo corriente"
+    ],
+    correcta: 0,
+    explicacion: "Diapositiva 36 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) Fondo de maniobra positivo implica:",
+    opciones: [
+      "Insolvencia",
+      "Capacidad de pago a corto plazo",
+      "Patrimonio neto negativo",
+      "Exceso de deuda"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 35 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El ciclo de explotación incluye:",
+    opciones: [
+      "Solo la venta",
+      "Compra → Producción → Venta → Cobro",
+      "Solo la producción",
+      "Solo el cobro"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 37 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El periodo medio de maduración financiero es:",
+    opciones: [
+      "PMM económico - periodo de pago",
+      "PMM económico + periodo de pago",
+      "Periodo de cobro - periodo de pago",
+      "Periodo de almacenamiento + periodo de pago"
+    ],
+    correcta: 0,
+    explicacion: "Diapositiva 38 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El ratio de liquidez general mide:",
+    opciones: [
+      "Solvencia inmediata",
+      "Capacidad de cubrir deudas a corto plazo con activo corriente",
+      "Rentabilidad",
+      "Endeudamiento"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 47 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El ratio de tesorería mide:",
+    opciones: [
+      "Capacidad inmediata de pago",
+      "Solvencia a largo plazo",
+      "Rotación de existencias",
+      "Rentabilidad financiera"
+    ],
+    correcta: 0,
+    explicacion: "Diapositiva 46 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El beneficio económico incluye:",
+    opciones: [
+      "Solo ingresos financieros",
+      "Ingresos y costes de explotación",
+      "Solo ingresos de explotación",
+      "Solo costes variables"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 54 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El beneficio financiero se obtiene:",
+    opciones: [
+      "Antes de impuestos",
+      "Después de restar gastos financieros e impuestos",
+      "Sumando amortizaciones",
+      "Antes de gastos financieros"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 54 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) Una inversión amplia incluye:",
+    opciones: [
+      "Solo inmovilizado",
+      "Activos corrientes y no corrientes",
+      "Solo activos financieros",
+      "Solo activos intangibles"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 89 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) La capitalización consiste en:",
+    opciones: [
+      "Llevar un valor futuro al presente",
+      "Llevar un valor presente al futuro",
+      "Reducir intereses",
+      "Eliminar riesgo"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 93 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) La actualización consiste en:",
+    opciones: [
+      "Llevar un valor presente al futuro",
+      "Llevar un valor futuro al presente",
+      "Calcular el fondo de maniobra",
+      "Calcular el PMM"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 93 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) La RSC implica:",
+    opciones: [
+      "Cumplimiento legal mínimo",
+      "Integración de criterios sociales y ambientales",
+      "Reducción de costes laborales",
+      "Eliminación de competencia"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 48 del tema 1.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El activo no corriente incluye:",
+    opciones: [
+      "Existencias",
+      "Maquinaria y edificios",
+      "Tesorería",
+      "Clientes"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 13 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El pasivo no corriente incluye:",
+    opciones: [
+      "Deudas con vencimiento superior a un año",
+      "Proveedores",
+      "Tesorería",
+      "Existencias"
+    ],
+    correcta: 0,
+    explicacion: "Diapositiva 21 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El patrimonio neto representa:",
+    opciones: [
+      "Deudas",
+      "Recursos propios",
+      "Activos financieros",
+      "Existencias"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 19 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) La situación de máxima estabilidad se da cuando:",
+    opciones: [
+      "Todo el activo se financia con recursos propios",
+      "El pasivo corriente es mayor que el activo corriente",
+      "El patrimonio neto es negativo",
+      "La empresa tiene muchas deudas"
+    ],
+    correcta: 0,
+    explicacion: "Diapositiva 34 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El PMM económico incluye:",
+    opciones: [
+      "Solo el periodo de cobro",
+      "Almacenamiento + fabricación + venta + cobro",
+      "Solo el periodo de pago",
+      "Solo fabricación"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 37 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El PMM financiero indica:",
+    opciones: [
+      "Tiempo que la empresa financia a proveedores",
+      "Tiempo que la empresa necesita financiar su ciclo",
+      "Tiempo de amortización",
+      "Tiempo de renovación del inmovilizado"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 37 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El ratio de disponibilidad inmediata es:",
+    opciones: [
+      "Activo corriente / Pasivo corriente",
+      "Tesorería / Pasivo corriente",
+      "Existencias / Pasivo corriente",
+      "Patrimonio neto / Activo total"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 46 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) El beneficio empresarial es:",
+    opciones: [
+      "Ventas totales",
+      "Ingresos - gastos",
+      "Activo - pasivo",
+      "Patrimonio neto"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 52 del tema 2.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) La empresa como sistema abierto:",
+    opciones: [
+      "No recibe información",
+      "Interactúa con el entorno",
+      "No tiene retroalimentación",
+      "No tiene límites"
+    ],
+    correcta: 1,
+    explicacion: "Diapositiva 19 del tema 1.",
+    grupo: "primera-prueba-25-26"
+  },
+  {
+    enunciado: "(Primera Prueba 25-26) Un stakeholder primario es:",
+    opciones: [
+      "Un grupo sin influencia",
+      "Un grupo esencial para la supervivencia",
+      "Un competidor",
+      "Un grupo externo sin interés económico"
+    ],
+    correcta: 1,
+    explicacion: "En ninguna diapositiva sale definido explícitamente lo que es un stakeholder primario, pero la más cercana podría ser la diapositiva 90 del tema 1.",
+    grupo: "primera-prueba-25-26"
   }
-]
+];
 
 const quiz = document.getElementById("quiz");
 
@@ -968,6 +1328,7 @@ let ordenPreguntas = preguntas.map((_, i) => i);
 
 // Estado de simulacro
 let simulacroActivo = false;
+let primeraPruebaActiva = false;
 let ordenAnteriorSimulacro = [...ordenPreguntas];
 
 // Barra superior
@@ -982,6 +1343,10 @@ const botonSimulacro = document.createElement("button");
 botonSimulacro.textContent = "Simulacro de Examen";
 botonSimulacro.style.marginRight = "10px";
 
+const botonPrimeraPrueba = document.createElement("button");
+botonPrimeraPrueba.textContent = "Primera Prueba 25-26";
+botonPrimeraPrueba.style.marginRight = "10px";
+
 const botonVolver = document.createElement("button");
 botonVolver.textContent = "Volver";
 botonVolver.style.display = "none";
@@ -994,6 +1359,7 @@ contador.style.fontWeight = "bold";
 quiz.before(barra);
 barra.appendChild(botonAleatorio);
 barra.appendChild(botonSimulacro);
+barra.appendChild(botonPrimeraPrueba);
 barra.appendChild(botonVolver);
 barra.appendChild(contador);
 
@@ -1065,14 +1431,14 @@ function mostrarResultados() {
 
   const total = ordenPreguntas.length;
   const notaSinPenalizacion = (10 * acertadas) / total;
-  const notaConPenalizacion = Math.max(0, 10 * ((acertadas - falladas / 3) / total));
+  const notaConPenalizacion = Math.max(0, 10 * ((acertadas - falladas / 2) / total));
 
   resultadoFinal.innerHTML = `
     <strong>Resultados:</strong><br>
     Has respondido ${respondidas} de ${total} preguntas.<br>
     Has acertado ${acertadas} de ${total}.<br>
     Nota sin penalización: ${notaSinPenalizacion.toFixed(2)} / 10.<br>
-    Nota con penalización de 1/3 por fallo: ${notaConPenalizacion.toFixed(2)} / 10 (mínimo 0).
+    Nota con penalización de 1/2 por fallo (esta es la que se usa en el examen): ${notaConPenalizacion.toFixed(2)} / 10 (mínimo 0).
   `;
   resultadoFinal.style.display = "block";
 }
@@ -1161,8 +1527,32 @@ botonSimulacro.addEventListener("click", () => {
 
   ordenPreguntas = mezclar(preguntas.map((_, i) => i)).slice(0, 30);
   simulacroActivo = true;
+  primeraPruebaActiva = false;
 
   botonSimulacro.style.display = "none";
+  botonPrimeraPrueba.style.display = "none";
+  botonVolver.style.display = "inline-block";
+  resultadoFinal.style.display = "none";
+  botonTerminar.style.display = "none";
+
+  renderQuiz();
+  actualizarContador();
+});
+
+botonPrimeraPrueba.addEventListener("click", () => {
+  for (let i = 0; i < respuestasUsuario.length; i++) {
+    respuestasUsuario[i] = null;
+  }
+
+  ordenPreguntas = preguntas
+    .map((pregunta, i) => pregunta.grupo === "primera-prueba-25-26" ? i : -1)
+    .filter(i => i !== -1);
+
+  simulacroActivo = false;
+  primeraPruebaActiva = true;
+
+  botonSimulacro.style.display = "none";
+  botonPrimeraPrueba.style.display = "none";
   botonVolver.style.display = "inline-block";
   resultadoFinal.style.display = "none";
   botonTerminar.style.display = "none";
@@ -1174,9 +1564,11 @@ botonSimulacro.addEventListener("click", () => {
 botonVolver.addEventListener("click", () => {
   ordenPreguntas = preguntas.map((_, i) => i);
   simulacroActivo = false;
+  primeraPruebaActiva = false;
 
   botonVolver.style.display = "none";
   botonSimulacro.style.display = "inline-block";
+  botonPrimeraPrueba.style.display = "inline-block";
   resultadoFinal.style.display = "none";
   botonTerminar.style.display = "none";
 
@@ -1194,8 +1586,10 @@ botonReiniciar.addEventListener("click", () => {
   }
   ordenPreguntas = preguntas.map((_, i) => i);
   simulacroActivo = false;
+  primeraPruebaActiva = false;
   botonVolver.style.display = "none";
   botonSimulacro.style.display = "inline-block";
+  botonPrimeraPrueba.style.display = "inline-block";
   resultadoFinal.style.display = "none";
   botonTerminar.style.display = "none";
   renderQuiz();
